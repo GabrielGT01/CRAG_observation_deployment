@@ -79,7 +79,7 @@ Each traced run captures, per turn:
 
 **Example trace — Turn 2**
 
-![LangSmith trace showing question, generation, and per-turn metrics](assets/langsmith_tracing1.png)
+![LangSmith trace showing question, generation, and per-turn metrics](https://github.com/GabrielGT01/CRAG_observation_deployment/blob/main/langsmith_tracing1.png)
 
 **Example trace — Turn 3**
 
