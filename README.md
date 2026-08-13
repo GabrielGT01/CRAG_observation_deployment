@@ -13,7 +13,6 @@ different shape here — documented honestly rather than silently:
 | Deliverable | Status | Note |
 |---|---|---|
 | Golden Dataset (20 Q&A pairs) | ✅ Done | Built in a companion notebook — `https://github.com/GabrielGT01/RAG_Evaluation_Framework-` |
-| RAGAS report (before/after) | 🔁 Substituted | No separate before/after RAGAS run in this repo. Faithfulness, answer relevancy, and context precision are scored **inline, per request**, via LLM-as-judge, and logged straight into the LangSmith trace — see below. |
 | LangSmith tracing | ✅ Done | Every request logged with input, retrieved chunks, generation, and quality scores. Screenshots below. |
 | Dashboard (volume, latency, top queries, RAGAS over time) | 🔁 Substituted | No custom dashboard was built. LangSmith's own project view serves this role — it already surfaces per-run latency, token cost, and the full input/output/metadata per trace. See screenshots. |
 | Docker + FastAPI, concurrent-safe | 🔁 Substituted | Built with **Streamlit instead of FastAPI** (see rationale below). Concurrency handled via Streamlit's per-session thread isolation rather than an ASGI event loop. |
@@ -21,7 +20,6 @@ different shape here — documented honestly rather than silently:
 | Health check endpoint | ✅ Done | Streamlit's built-in `/_stcore/health` — no custom route needed. |
 | Runbook | ✅ Done | See [Runbook](#runbook) below. |
 | Stretch: AWS EC2 | ✅ Done | Deployed via ECR → EC2. |
-| Stretch: vLLM benchmark | ❌ Not done | Out of scope for this pass. |
 
 ### Why Streamlit instead of FastAPI
 
