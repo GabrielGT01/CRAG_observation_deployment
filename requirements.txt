@@ -1,0 +1,34 @@
+# ── App / UI ────────────────────────────────────────────────────────────
+streamlit
+
+# ── Env / config ────────────────────────────────────────────────────────
+python-dotenv
+
+# ── LangChain core + integrations ──────────────────────────────────────
+langchain-core
+langchain-text-splitters
+langchain-community
+langchain-openai
+langchain-tavily
+
+# ── LangGraph (StateGraph, MemorySaver, add_messages) ──────────────────
+langgraph
+
+# ── LangSmith (@traceable tracing) ─────────────────────────────────────
+langsmith
+
+# ── Vector store ────────────────────────────────────────────────────────
+faiss-cpu
+
+# ── Document loaders ────────────────────────────────────────────────────
+# PyMuPDFLoader
+pymupdf
+# PyPDFLoader (imported in document_processor.py alongside PyMuPDFLoader)
+pypdf
+# WebBaseLoader
+beautifulsoup4
+requests
+
+# ── Structured output / validation ─────────────────────────────────────
+pydantic
+typing_extensions

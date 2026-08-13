@@ -1,0 +1,13 @@
+
+.env
+.pdf
+.git
+.gitignore
+__pycache__
+*.pyc
+.venv
+venv/
+.streamlit
+/tmp
+*.ipynb
+.ipynb_checkpoints
