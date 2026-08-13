@@ -83,7 +83,7 @@ Each traced run captures, per turn:
 
 **Example trace — Turn 3**
 
-![LangSmith trace showing retrieved documents and faithfulness score](assets/langsmith_tracing2.png)
+![LangSmith trace showing retrieved documents and faithfulness score](https://github.com/GabrielGT01/CRAG_observation_deployment/blob/main/langsmith_tracing3.png)
 
 > The assignment asks for 5 traced-request screenshots — two are included
 > here as a representative sample from one thread. Grab three more from
